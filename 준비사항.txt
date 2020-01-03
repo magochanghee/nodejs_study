@@ -1,0 +1,14 @@
+modul 
+1. standardJS
+2. ES7 React/Redux/GraphQL/React-Native snippets
+
+파일 최상단 
+
+'use strict'			#스트릭트모드 선언
+
+자료구조 
+
+const 		#한번 선언하면 변경되지 않는 구조, +메모리 최적화
+let		#변경 가능한 구조
+
+data type
