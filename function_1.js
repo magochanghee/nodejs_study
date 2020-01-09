@@ -38,7 +38,7 @@ console.log(hello6('mark'))
 
 
 
-// ¼±¾ğÀû function°ú ÀÍ¸íÇÔ¼ö Â÷ÀÌ
+// ì„ ì–¸ì  functionê³¼ ìµëª…í•¨ìˆ˜ ì°¨ì´
 
 function hello7(){
     console.log('hello7')
@@ -46,13 +46,13 @@ function hello7(){
 hello7()
 
 hello8()
-#undefine
+// undefine
 var hello8 = function(){
     console.log('hello8')
 }
 
 hello9();
-#not a function
+// not a function
 const hello9 = function(){
     console.log('hello9')
 }

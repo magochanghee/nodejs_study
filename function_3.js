@@ -1,4 +1,4 @@
-// new Function();      »ı¼ºÀÚÇÔ¼ö
+// new Function();     ìƒì„±ì í•¨ìˆ˜
 
 function Person(name, age){
     console.log(this);
@@ -13,7 +13,7 @@ console.log(p, p.name, p.age);
 const a = new Person('angoe',33);
 console.log(a,a.name, a.age);
 /*
-// arrow function¿¡¼­´Â this¸¦ »ç¿ëÇÒ¼ö ¾ø´Ù.
+// arrow functionì—ì„œëŠ” thisë¥¼ ì‚¬ìš©í• ìˆ˜ ì—†ë‹¤.
 const Cat = (name,age) => {
     console.log(this)
     this.name = name;
@@ -23,7 +23,7 @@ const Cat = (name,age) => {
 const c =new Cat('aer',10);
 */
 
-// ÇÔ¼ö¾È¿¡¼­ ÇÔ¼ö¸¦ ¸¸µé¾î ¸®ÅÏ
+// í•¨ìˆ˜ì•ˆì—ì„œ í•¨ìˆ˜ë¥¼ ë§Œë“¤ì–´ ë¦¬í„´
 
 function Plus(base) {
     return function(num){
@@ -35,7 +35,7 @@ const plus5 = Plus(5);
 console.log(plus5(10))
 
 
-// ÇÔ¼ö¸¦ È£ÃâÇÒ ¶§, ÀÎÀÚ·Î ÇÔ¼ö¸¦ »ç¿ë
+// í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•  ë•Œ, ì¸ìë¡œ í•¨ìˆ˜ë¥¼ ì‚¬ìš©
 function hello(c) {
     console.log('hello');
     c();

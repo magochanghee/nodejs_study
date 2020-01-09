@@ -1,7 +1,7 @@
-// °´Ã¼ object
-// ÇÔ¼ö, Å¬·¡½º(Æ²) =? °´Ã¼, °³Ã¼, object
+// ê°ì²´ object
+// í•¨ìˆ˜, í´ë˜ìŠ¤(í‹€) =? ê°ì²´, ê°œì²´, object
 
-// function Æ²() {} => new Æ²()
+// function í‹€() {} => new í‹€()
 
 function A() {}
 
@@ -20,9 +20,9 @@ const c = new B('Mark', 22);
 console.log(B());
 
 
-// °´Ã¼ ¼Ó¼º Ãß°¡ÇÏ±â property
-// {»ç¿ëÇÒ µ¥ÀÌÅÍ, ÇÔ¼ö}
-//°ª³Ö±â
+// ê°ì²´ ì†ì„± ì¶”ê°€í•˜ê¸° property
+// {ì‚¬ìš©í•  ë°ì´í„°, í•¨ìˆ˜}
+//ê°’ë„£ê¸°
 function D(name){
     this.name = 'Mark'
 }
@@ -30,7 +30,7 @@ function D(name){
 const d = new D();
 console.log(d)
 
-//ÇÔ¼ö³Ö±â
+//í•¨ìˆ˜ë„£ê¸°
 
 function F(){
     this.hello = function(){

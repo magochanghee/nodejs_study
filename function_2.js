@@ -1,4 +1,4 @@
-// »ý¼ºÀÚÇÔ¼ö·Î ÇÔ¼ö¸¦ ¸¸µå´Â ¹æ¹ý
+// ìƒì„±ìží•¨ìˆ˜ë¡œ í•¨ìˆ˜ë¥¼ ë§Œë“œëŠ” ë°©ë²•
 const hello= new Function();
 
 const sum = new Function('a','b','c','return a+b+c');
@@ -6,13 +6,13 @@ const sum = new Function('a','b','c','return a+b+c');
 console.log(sum(1,2,3));
 
 
-// function°ú new FunctionÂ÷ÀÌ
+// functionê³¼ new Functionì°¨ì´
 global.a = 2
 {
     const a = 1;
     const test = new Function('return a');
     console.log(test());
-    // Áö¿ªº¯¼ö¸¦ »ç¿ëÇÒ¼ö ¾ø´Ù.
+        // ì§€ì—­ë³€ìˆ˜ë¥¼ ì‚¬ìš©í• ìˆ˜ ì—†ë‹¤.
 }
 
 {
@@ -34,7 +34,7 @@ const hello1 = () =>{
 hello1()
 
 
-// ¸Å°³º¯¼ö·Î
+// ë§¤ê°œë³€ìˆ˜ë¡œ
 
 const hello2 = name => {
     console.log('hello2',name)
