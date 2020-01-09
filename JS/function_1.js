@@ -3,7 +3,7 @@ function hello1() {
 }
 
 function hello2(name) {
-    console.log('hello ',name)
+    console.log('hello2',name)
 }
 
 
@@ -30,6 +30,8 @@ const hello5 = function(name){
     console.log('hello5',name);
 }
 hello5('case')
+
+
 const hello6 = function(name){
     return `hello6 ${name}`
 }
@@ -46,13 +48,13 @@ function hello7(){
 hello7()
 
 hello8()
-// undefine
+// hello8 is not a function
 var hello8 = function(){
     console.log('hello8')
 }
 
 hello9();
-// not a function
+// not a defined
 const hello9 = function(){
     console.log('hello9')
 }
