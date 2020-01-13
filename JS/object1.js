@@ -40,10 +40,13 @@ function F(){
 
 new F().hello();
 
+
+
+//
 function G(name){
     this.hello = function(){
         console.log('hello',name);
     }
 }
 new G('Marktub').hello()
-//
+//new Function 표준 내장 객체

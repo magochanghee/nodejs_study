@@ -7,7 +7,7 @@ console.log(a, typeof a)
 const b = new Object(true);
 console.log(b, typeof b)
 
-const c = new Object({name :'Mark', age:25})
+const c = new Object({name :'Mark', age:25})    //리터럴 객체
 console.log(c, typeof c)
 
 // 프로토타입 체인   .prototype 모든 객체를 연결해서 사용할수 있돠
