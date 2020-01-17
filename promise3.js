@@ -63,4 +63,4 @@ p_2()
 })
 .then(()=>{
    console.log('4000ms 이후 call',) 
-});
+}).then(p_2);
